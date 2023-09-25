@@ -1,0 +1,423 @@
+@font-face {
+    font-family: "Roboto";
+    /* Придумайте название для шрифта */
+    src: local("Roboto-Regular"),
+        url("/font/Roboto-Regular.woff2") format("woff2"),
+        /* Самые современные браузеры */
+        url("/font/Roboto-Regular.woff") format('woff');
+    /* Современные браузеры */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    /* Придумайте название для шрифта */
+    src: local("Roboto-Bold"),
+        url("/font/Roboto-Bold.woff2") format("woff2"),
+        /* Самые современные браузеры */
+        url("/font/Roboto-Bold.woff") format('woff');
+    /* Современные браузеры */
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Muller";
+    /* Придумайте название для шрифта */
+    src: local("Muller-Regular"),
+        url("/font/MullerRegular.woff2") format("woff2"),
+        /* Самые современные браузеры */
+        url("/font/MullerRegular.woff") format('woff');
+    /* Современные браузеры */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', 'Muller';
+    font-size: 16px;
+
+}
+
+
+*:focus-visible {
+    outline: 0;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.btn--reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.list__reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/***header***/
+
+.flex {
+    display: flex;
+}
+
+
+header {
+    background: rgb(6 11 80 / 85%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+
+.header__content {
+    align-items: center;
+}
+
+
+.header__link {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+.nav__item:not(:last-child) {
+    margin-right: 56px;
+}
+
+/***hero***/
+.hero {
+    background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+}
+
+
+.image__hero {
+    background: url(/img/hero-img.png) no-repeat;
+    background-size: 93%;
+    background-position: 49% 31%;
+}
+
+
+.about__media {
+    background: url(/img/svg/about-1.jpg) no-repeat;
+    background-size: 80%;
+    background-position: 50% 44%;
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+
+.descr {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 143%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+
+.hero__container {
+    padding: 130px 0;
+}
+
+
+.button__hero {
+    background-color: #3F2AFF;
+    padding: 24px 81px;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.btn--effects {
+    position: relative;
+    border: 2px solid transparent;
+    transition-property: background-color, border-color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.btn--effects:before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    top: -8px;
+    border-radius: 40px;
+    border: 2px solid #FF7E93;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+
+.btn--effects:focus-visible:before {
+    opacity: 1;
+}
+
+
+/****about****/
+.about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.about__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #2E2B44;
+    margin-bottom: 7px;
+}
+
+
+.about__descr {
+    align-items: center;
+    color: #666666;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 17px;
+}
+
+
+.about__image {
+    min-height: 200px;
+}
+
+
+.block__hero-bottom {
+    margin-bottom: 22px;
+}
+
+
+.about__list {
+    display: flex;
+}
+
+
+.about__item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+.about__descr-bottom {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    align-items: center;
+    color: #666666;
+}
+
+
+.about__image-bottom {
+    margin-right: 30px;
+}
+
+
+/****teachers****/
+.teachers {
+    padding-top: 73px;
+    padding-bottom: 66px;
+    background: #212133;
+}
+
+
+.teachers__title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+
+.teacher-item__image {
+    margin-bottom: 28px;
+}
+
+
+.teacher-name__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+
+.teacher-descr {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #85859B;
+}
+
+
+/***courses***/
+
+.courses {
+    padding-top: 70px;
+    padding-bottom: 54px;
+}
+
+
+.card__courses {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.courses__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #212133;
+    margin-bottom: 23px;
+}
+
+.course__image {
+    display: block;
+}
+
+
+.course__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #212133;
+    margin-bottom: 12px;
+    padding-left: 30px;
+}
+
+
+.course__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 32px;
+    padding-left: 30px;
+}
+
+
+.course__link {
+    display: inline-block;
+    background-color: #3F2AFF;
+    padding: 23px 57px;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.courses__block {
+    margin-top: auto;
+    padding-left: 30px;
+}
+
+
+.courses__studing {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 0;
+    margin-bottom: 36px;
+}
+
+
+/****footer****/
+.footer {
+    background: #2E2B44;
+}
+
+
+.list__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 0;
+}
+
+
+.item__footer:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.footer__align {
+    text-align: center;
+    background-color: #FFFFFF;
+}

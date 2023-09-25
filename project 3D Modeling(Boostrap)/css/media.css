@@ -1,0 +1,366 @@
+@media(max-width: 1200px) {
+
+    .about__item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+
+@media(max-width: 992px) {
+    .title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 100%;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+    }
+
+
+    .descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin-bottom: 61px;
+    }
+
+
+    .image__hero {
+        background: url(/img/hero-img768.png) no-repeat;
+        background-size: 98%;
+        background-position: -6% 43%;
+    }
+
+
+    .course__descr {
+        font-weight: 400;
+        line-height: 150%;
+        color: #FFFFFF
+    }
+
+
+    .about__media {
+        background: url(/img/about-big2jpg.jpg) no-repeat;
+        background-size: 80%;
+        background-position: 50% 44%;
+    }
+
+
+    .about__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        color: #2E2B44;
+        margin-bottom: 19px;
+    }
+
+
+    .about__descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #666666;
+    }
+
+
+    .about__descr-bottom {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        color: #666666;
+    }
+
+
+    .block__hero-bottom {
+        margin-bottom: 21px;
+    }
+
+
+    .about__image-bottom {
+        margin-bottom: 15px;
+    }
+
+
+    .teacher-item:first-child {
+        margin-bottom: 30px;
+    }
+
+
+    .teacher-name__title {
+        margin-bottom: 2px;
+    }
+
+
+    .list__footer {
+        padding: 20px 0;
+    }
+}
+
+
+@media(max-width: 768px) {
+
+    .header {
+        padding: 30px 0;
+    }
+
+
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .header__logo {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+
+    .hero__container {
+        padding: 79px 0;
+    }
+
+
+    .image__hero {
+        background: url(/img/hero-img.png) no-repeat;
+        background-size: 93%;
+        background-position: 96% 29%;
+    }
+
+
+    .descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin-bottom: 63px;
+    }
+
+
+    .button__hero {
+        margin-bottom: 50px;
+    }
+
+
+    .about {
+        padding-bottom: 41px;
+    }
+
+
+    .about__media {
+        background: url(/img/about-big2jpg.jpg) no-repeat;
+        background-size: 80%;
+        background-position: 50% 4%;
+    }
+
+
+    .about__title {
+        color: #2E2B44;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+    }
+
+
+    .about__descr {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #666666;
+    }
+
+
+    .about__descr-bottom {
+        color: #666;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 128%;
+    }
+
+
+    .teacher-descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #85859B;
+    }
+
+
+    .courses {
+        padding-top: 60px;
+
+    }
+
+
+    .course__descr {
+        margin-bottom: 40px;
+        color: #666;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+    }
+
+
+    .course__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 118%;
+        color: #212133;
+        margin-bottom: 12px;
+        padding-left: 30px;
+    }
+
+
+    .course__link {
+        padding: 23px 49px;
+    }
+
+
+    .header__logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 576px) {
+    .nav__list {
+        overflow: scroll;
+    }
+
+
+    .header__content {
+        display: block;
+    }
+
+
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100%;
+    }
+
+
+    .descr {
+        color: #FFF;
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 38px;
+    }
+
+
+    .header__logo {
+        margin-bottom: 23px;
+    }
+
+
+    .hero__container {
+        padding-top: 41px;
+        padding-bottom: 14px;
+    }
+
+
+    .button__hero {
+        background-color: #3F2AFF;
+        padding: 22px 45px;
+        border-radius: 20px;
+        color: #fff;
+        margin-bottom: 50px;
+        margin: 0;
+        font-weight: 700;
+        font-size: 16px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .about__image-bottom {
+        margin-bottom: 28px
+    }
+
+
+    .about__descr-bottom {
+        color: #666;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 128%;
+    }
+
+
+    .teachers__title {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+    }
+
+
+    .teachers {
+        padding-top: 31px;
+        padding-bottom: 32px;
+    }
+
+    .teacher-name__title {
+        margin-bottom: 5px;
+    }
+
+
+    .courses__title {
+        max-width: 195px;
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+
+    .courses {
+        padding-top: 21px;
+    }
+
+
+    .course__descr {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+
+    .teachers {
+        padding-bottom: 82px;
+    }
+}
+
+
+@media(max-width: 320px) {
+
+    .about__title {
+        color: #2E2B44;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        margin-bottom: 6px;
+    }
+
+
+    .about__descr {
+        color: #666;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+
+    .about__item {
+        display: flex;
+        flex-direction: row;
+    }
+}
