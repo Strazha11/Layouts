@@ -1,0 +1,1644 @@
+@media(max-width:1200px) {
+
+    /******header****/
+    .container {
+        padding: 0 100px;
+    }
+
+
+    .header__image-logo {
+        width: 14%;
+        margin-right: auto;
+    }
+
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 26px;
+    }
+
+
+    .header__nav {
+        order: 3;
+        margin-right: 0;
+        width: 100%;
+        border: 1px solid #E6E8EC;
+        margin-top: 25px;
+    }
+
+
+    .header__search {
+        display: flex;
+        order: 2;
+    }
+
+
+    .nav__list {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+
+    /****hero****/
+    .hero__image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url(/img/backgroundimage/microphone-hero.jpg) no-repeat;
+        background-size: 32%;
+        background-position: 101% 39%;
+    }
+
+
+    .container__hero-block-image {
+        padding-top: 89px;
+    }
+
+
+    .hero__desc {
+        max-width: 539px;
+        margin-bottom: 26px;
+    }
+
+
+    .hero__button {
+        padding: 21px 51px;
+    }
+
+
+    /****podcasts****/
+    .podcasts__card {
+        flex: 1;
+        padding: 37px 67px 40px 30px;
+        background: var(--white);
+        width: 73%;
+    }
+
+
+    .podcasts__time {
+        margin-bottom: 8px;
+    }
+
+
+    .podcasts__title {
+        margin-bottom: 23px;
+    }
+
+
+    /****transfers****/
+    .transfers {
+        padding-top: 93px;
+    }
+
+
+    .container__transfers {
+        gap: 51px;
+    }
+
+
+    .transfers__item {
+        width: calc((100% - 15px*2) / 2);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .container__transders-left {
+        flex-basis: 72%;
+    }
+
+
+    .container__transfers-right {
+        padding-top: 12px;
+    }
+
+
+    .transfers__title {
+        margin-bottom: 20px;
+    }
+
+
+    .guests__desc-artist {
+        width: 100%;
+    }
+
+
+    .image__microphone {
+        margin-bottom: 17px;
+    }
+
+
+    .transfers__link {
+        padding-top: 7px;
+        margin-bottom: 13px;
+    }
+
+
+    .transfers__desc-enjoy {
+        width: 108%;
+    }
+
+
+    /***guests***/
+    .guests__artist {
+        margin-bottom: 11px;
+    }
+
+
+    .guests__link {
+        padding: 9px 19px;
+    }
+
+
+    .guests__desc {
+        width: 69%;
+    }
+
+
+    /****palylists****/
+    .container__playlists {
+        flex-direction: column;
+    }
+
+
+    .playlists__notification {
+        width: 100%;
+
+    }
+
+
+    .playlists__left {
+        margin-bottom: 21px;
+    }
+
+
+    .playlists__item {
+        display: flex;
+        flex-direction: row;
+        width: calc((100% - 18px * 4) / 3);
+    }
+
+
+    .item__playlists:not(:nth-child(3n+1)) {
+        margin-right: 0;
+    }
+
+
+
+    .playlists__card-desc {
+        display: flex;
+        justify-content: center;
+        padding: 11px 0px 16px 13px;
+    }
+
+
+    .playlists__list {
+        gap: 30px;
+    }
+
+
+    .playlists__flag-russia {
+        position: absolute;
+        left: 0px;
+    }
+
+
+    .image-russia__playlists {
+        position: relative;
+    }
+
+
+    .playlists__flag-england {
+        position: absolute;
+        left: 0;
+    }
+
+
+    .playlists__image-england {
+        position: relative;
+    }
+
+
+    .playlists__ieroglif-block {
+        margin-bottom: 11px;
+    }
+
+
+    /*****wave*****/
+    .wave {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+
+    .container__wave {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    .wave__new {
+        position: absolute;
+        width: 26%;
+        height: 30%;
+        transform: translatey(-329%);
+    }
+
+
+    .wave__image-block {
+        padding-bottom: 31px;
+        padding-top: 0;
+    }
+
+
+    .container__article-wave {
+        width: 78%;
+    }
+
+
+    .wave__link {
+        padding: 22px 14px;
+    }
+
+
+    /****about-us****/
+    .about-us__image-block-two {
+        background: url(/img/backgroundimage/dawn-about-us.png) no-repeat;
+        background-position: 102%;
+        background-size: 78%;
+    }
+
+
+    .about-us__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .about-us__item {
+        flex: 1 0 31%;
+    }
+
+
+    .about-us-preview {
+        width: 117%;
+        margin-bottom: 4px;
+    }
+
+
+    .about-us-desc {
+        width: 114%;
+    }
+
+
+    .about-us__desc-card {
+        padding-top: 32px;
+    }
+
+
+    .container__bottom-bot-about-us {
+        margin-bottom: 35px;
+    }
+
+
+    .container__top-about-us-block {
+        margin-bottom: 33px;
+    }
+
+
+    .container__about-us-form-bottom {
+        width: 99%;
+    }
+
+
+    .form__about-us {
+        gap: 30px;
+    }
+
+
+    .field {
+        padding: 20px 33px;
+        width: 101%;
+    }
+
+
+    .about-us__button {
+        padding: 24px 52px;
+    }
+
+
+    .container__footer-right {
+        width: 54%;
+    }
+
+
+    .about-us__button {
+        margin-bottom: 30px;
+    }
+
+
+    /****footer****/
+    .footer {
+        background-size: 190%;
+        background-position: 79% 89%;
+    }
+
+
+    .container__footer-right {
+        width: 54%;
+    }
+}
+
+
+@media(max-width:992px) {
+
+
+    /***header***/
+    .nav__list {
+        display: flex;
+        overflow: scroll;
+    }
+
+
+    /***hero***/
+    .hero__image {
+        display: none;
+    }
+
+
+    /***podcasts***/
+    .podcasts__image-date {
+        position: absolute;
+        width: 57px;
+    }
+
+
+    .podcasts__item {
+        width: calc((100% - 8px * 1) / 1);
+    }
+
+
+    .podcasts__card {
+        padding: 37px 79px 29px 30px;
+    }
+
+
+    /***transfers***/
+    .transfers__container-bottom {
+        display: none;
+    }
+
+
+    .container__transfers {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+
+    .transfers__item {
+        padding: 30% 40px 12px 16px;
+    }
+
+
+    .transfers {
+        position: relative;
+        padding-bottom: 31px;
+    }
+
+
+    .transfers__container-bottom-dop {
+        display: flex;
+        justify-content: right;
+        padding-top: 57px;
+    }
+
+
+    .transfers__container-bottom-dop::before {
+        content: "";
+        position: absolute;
+        border-top: 1px solid grey;
+        width: 100%;
+        right: -10px;
+        bottom: 156px;
+    }
+
+
+    .container__transfers {
+        gap: 30px;
+    }
+
+
+    .transfers__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 65%;
+    }
+
+
+    .transfers__microphone-bottom-image {
+        background-image: url(/img/contextualimage/transfers-mic-cintext.png);
+        background-repeat: no-repeat;
+        background-position: 21% 98%;
+        background-size: 11%;
+    }
+
+
+    /***playlists***/
+    .playlists__card-desc {
+        flex: 1 0 53%;
+    }
+
+
+    /***guests***/
+    .guests__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .container__desc-guests {
+        padding: 38px 0 0 0;
+    }
+
+
+    .guests__desc-artist {
+        width: 68;
+        margin-bottom: 20px;
+    }
+
+
+    /***wave***/
+    .wave__link {
+        align-items: center;
+    }
+}
+
+
+@media(max-width:768px) {
+
+    /***header***/
+    .container {
+        padding: 0 114px;
+    }
+
+
+    .header__container {
+        padding-top: 25px;
+    }
+
+
+    .header__nav {
+        margin-top: 25px;
+    }
+
+
+    .nav__list {
+        display: flex;
+        gap: 48px;
+        padding-top: 3px;
+    }
+
+
+    .header__image-logo {
+        width: 21%;
+    }
+
+
+    .nav__link {
+        color: #121723;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    /***hero***/
+    .hero__title {
+        margin-bottom: 19px;
+    }
+
+
+    /***playlists***/
+    .playlists__card-desc {
+        flex: 1 1 57%;
+    }
+
+
+    /****podcasts****/
+    .podcasts__item {
+        flex: 1 0 49%;
+    }
+
+
+    .podcasts__card {
+        width: 79%;
+        padding: 37px 50px 29px 30px;
+    }
+
+
+    .podcast__image-two {
+        padding-top: 125px;
+    }
+
+
+    /****transfers****/
+    .transfers__item {
+        padding: 30% 40px 17px 16px;
+    }
+
+
+    .transfers__title {
+        margin-bottom: 72px;
+    }
+
+
+    .transfers__link {
+        padding: 7px 56px;
+        margin-bottom: 9px;
+    }
+
+
+    .transfers__desc-enjoy {
+        width: 76%;
+    }
+
+
+    /****guests****/
+    .guests__desc {
+        width: 100%;
+    }
+
+
+    .guests__desc-artist {
+        margin-bottom: 24px;
+        width: 67%;
+    }
+
+
+    .guests__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .container__desc-guests {
+        padding: 9px 0 0 0;
+    }
+
+
+    .guests__artist {
+        margin-bottom: 8px;
+    }
+
+
+    /****playlists****/
+    .playlists__item {
+        width: calc((100% - 15px * 2) / 2)
+    }
+
+
+    .playlists__list {
+        gap: 30px;
+    }
+
+
+    .playlists__notification {
+        width: 96%;
+    }
+
+
+    .playlists__card-desc {
+        padding: 11px 0px 16px 11px;
+    }
+
+
+    .playlists__right {
+        padding-top: 19px;
+    }
+
+
+    /****wave***/
+    .wave {
+        padding-top: 80px;
+    }
+
+
+    .container__wave {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+
+    .wave__title {
+        margin-bottom: 23px;
+    }
+
+
+    .wave__preview-desc {
+        width: 131%;
+    }
+
+
+    .wave__desc {
+        width: 129%;
+    }
+
+
+    .wave__image-two {
+        background: url(/img/768img/wave-768-volna.png) no-repeat;
+        background-position: 20% 18%;
+        background-size: 99%;
+        width: 131%;
+    }
+
+
+    .wave__new {
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        transform: translatey(-323%);
+    }
+
+
+    /****about-us***/
+    .container__top-about-us-block {
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 169px;
+    }
+
+
+    .container__about-us-block {
+        width: 68%;
+    }
+
+
+    .about-us {
+        position: relative;
+    }
+
+
+    .about-us-desc {
+        width: 130%;
+    }
+
+
+    .about-us__image-block {
+        position: absolute;
+        width: 124%;
+        min-height: 123px;
+        background-image: url(/img/backgroundimage/spiral-768.png), url(/img/backgroundimage/dawn-about-us.png);
+        background-repeat: no-repeat;
+        background-position: 0%, 98%;
+        background-size: 77%, 17%;
+        transform: translate(-115px, 373px);
+    }
+
+
+    .about-us__item {
+        flex: 1 0 30%;
+        min-width: 0;
+        min-height: 0;
+    }
+
+
+    .about-us__bottom-form {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .about-us__name-form {
+        width: 99%;
+    }
+
+
+    .form__email-about-us {
+        width: 99%;
+    }
+
+
+    .form__about-us {
+        gap: 30px;
+    }
+
+
+    .about-us-desc {
+        width: 152%;
+    }
+
+
+    .about-us-preview {
+        width: 155%;
+    }
+
+
+    .about-us__email-form {
+        width: 100%;
+    }
+
+
+    /****footer****/
+    .footer__image-logo {
+        margin-bottom: 16px;
+    }
+
+
+    .footer__image-youtube {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .footer__image-guest {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .footer__image-vk {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .container__footer-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+
+    .container__footer-left {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+
+    .footer__social-list {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .container__footer-right {
+        width: 100%;
+    }
+
+    .footer__list-right-one {
+        display: flex;
+        gap: 25px;
+    }
+
+
+    .footer__list-right-three {
+        display: flex;
+        gap: 25px;
+    }
+
+
+    .footer__list-right-two {
+        display: flex;
+        gap: 25px;
+    }
+
+
+    .container__footer-top {
+        display: flex;
+        margin-bottom: 101px;
+    }
+
+
+    footer {
+        background: url(/img/backgroundimage/volna__footer.png) no-repeat;
+        background-size: 95%;
+        background-position: 68% 92%;
+        padding-top: 99px;
+        padding-bottom: 23px;
+        background-color: var(--light-black);
+    }
+
+
+}
+
+
+@media(max-width: 576px) {
+
+    /****header****/
+    .container {
+        padding: 0 32px;
+    }
+
+
+    .header__image-logo {
+        width: 34%;
+    }
+
+
+    .header__container {
+        padding-top: 17px;
+    }
+
+
+    .header__nav {
+        margin-top: 9px;
+    }
+
+
+    .nav__list {
+        display: flex;
+        overflow: scroll;
+        padding-top: 16px;
+        padding-bottom: 15px;
+        gap: 27px;
+    }
+
+
+    /****hero****/
+    .hero__title {
+        color: #121723;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 7px;
+    }
+
+
+    .hero__title-cursive {
+        color: #121723;
+        font-size: 32px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+
+    .hero__desc {
+        color: #121723;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 146%;
+        margin-bottom: 22px;
+    }
+
+
+    .container__hero-block-image {
+        padding-top: 38px;
+        padding-bottom: 40px;
+    }
+
+
+    .hero__button {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 14px 43px;
+    }
+
+
+    /****podcasts****/
+    .podcasts {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+
+    .podcasts__card {
+        width: 100%;
+        padding: 37px 4px 29px 30px;
+    }
+
+
+    .podcasts__image {
+        min-height: 118px;
+    }
+
+
+    .podcasts__desc {
+        color: #121723;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 6px;
+    }
+
+
+    .podcasts__name {
+        color: #A1A6B4;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .podcasts__image-date {
+        position: absolute;
+        top: -1px;
+        width: 52px;
+    }
+
+
+    .podcasts__title {
+        margin-bottom: 18px;
+    }
+
+
+    .podcasts__time {
+        margin-bottom: 4px;
+    }
+
+
+    /****playlists****/
+    .container__transfers-right {
+        padding-top: 3px;
+    }
+
+
+    .playlists__item {
+        font-size: 24px;
+    }
+
+
+    .playlists__card-desc {
+        flex: 1 0 53%;
+    }
+
+
+    /****transfers****/
+    .transfers {
+        padding-top: 54px;
+        padding-bottom: 48px;
+    }
+
+
+    .transfers__card-one {
+        background: url(/img/320img/transfers-people.png) no-repeat;
+        background-size: 100%;
+        background-position: center top;
+    }
+
+
+    .transfers__card-two {
+        background: url(/img/320img/transfers-grafomania.png) no-repeat;
+        background-size: 100%;
+        background-position: center top;
+    }
+
+
+    .transfers__card-three {
+        background: url(/img/320img/transfers-no\ rim.png) no-repeat;
+        background-size: 100%;
+        background-position: center top;
+    }
+
+
+    .transfers__card-thour {
+        background: url(/img/320img/transfers-erudit.png) no-repeat;
+        background-size: 100%;
+        background-position: center top;
+    }
+
+
+    .transfers__card-five {
+        background: url(/img/320img/transfers-zaic.png) no-repeat;
+        background-size: 100%;
+        background-position: center top;
+    }
+
+
+    .transfers__card-six {
+        background: url(/img/320img/transfers-ejj.png) no-repeat;
+        background-size: 100%;
+        background-position: center top;
+    }
+
+
+    .transfers__anons {
+        color: #A1A6B4;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .container__bottom-transfers {
+        transform: translateX(-15%);
+        padding-top: 758px;
+    }
+
+
+    .transfers__card-link {
+        color: #6D31EE;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .transfers__card-anons {
+        line-height: 50%;
+    }
+
+
+    .transfers__title-card {
+        width: 103%;
+    }
+
+
+    .transfers__item {
+        padding: 23% 5px 6px 10px;
+        min-height: 153px;
+    }
+
+
+    .transfers__title {
+        margin-bottom: 19px;
+    }
+
+
+    .transfers__style {
+        color: #121723;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+    .transfers__desc-enjoy {
+        color: #A1A6B4;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 93%;
+        margin-bottom: 2px;
+    }
+
+
+    .transfers__desc {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .image__microphone {
+        width: 184px;
+        margin-bottom: 5px;
+    }
+
+
+    /***guests***/
+    .guests {
+        padding-top: 58px;
+        padding-bottom: 54px;
+    }
+
+
+    .guests__preview-title {
+        color: #A1A6B4;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+
+
+    .container__desc-guests {
+        padding: 10px 0 0 0;
+    }
+
+
+    .guests__desc {
+        color: #A1A6B4;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 23px;
+    }
+
+
+    .guests__desc-artist {
+        color: #A1A6B4;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        margin-bottom: 27px;
+    }
+
+
+    /***guests***/
+    .guests__list {
+        gap: 27px;
+    }
+
+
+    .guests__link {
+        padding: 10px 14px;
+    }
+
+
+    /***playlists***/
+    .playlists {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+
+    .playlists__notification {
+        color: #A1A6B4;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        width: 83%;
+    }
+
+
+    .playlists__ieroglif {
+        color: #A1A6B4;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+
+    .playlists__ieroglif-block {
+        margin-bottom: 14px;
+    }
+
+
+    .playlists__item {
+        display: flex;
+        flex-direction: column;
+        width: 44%;
+    }
+
+
+    .playlists__name-group {
+        color: #121723;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+    .playlists__song {
+        color: #A1A6B4;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .playlists__flag-russia {
+        position: absolute;
+        transform: translateX(365%);
+    }
+
+
+    .playlists__flag-england {
+        position: absolute;
+        transform: translateX(365%);
+    }
+
+
+    /***wave***/
+    .wave {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+
+    .wave__new {
+        position: absolute;
+        width: 24%;
+        height: 31%;
+        transform: translatey(-310%);
+    }
+
+
+    .wave__image-block {
+        padding-bottom: 21px;
+    }
+
+
+    .wave__title {
+        margin-bottom: 12px;
+    }
+
+
+    .wave__image-two {
+        background-position: 24% 27%;
+        background-size: 114%;
+        width: 129%;
+    }
+
+
+    .wave__preview-desc {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 10px;
+    }
+
+
+    .wave__desc {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 6px;
+    }
+
+
+    .wave__price {
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 22px;
+    }
+
+
+    .wave__link {
+        color: #F0D288;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 15px;
+        width: 134%;
+    }
+
+
+    /***about-us***/
+    .about-us {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+
+    .about-us-preview {
+        color: #A1A6B4;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        width: 139%;
+        margin: 0;
+    }
+
+
+    .about-us-desc {
+        color: #A1A6B4;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+
+    .container__top-about-us-block {
+        margin-bottom: 29px;
+    }
+
+
+    .about-us__name {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        width: 10%;
+        margin-bottom: 5px;
+    }
+
+
+    .about-us__card-desc {
+        color: #A1A6B4;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+
+    .about-us__email-form {
+        width: 100%;
+    }
+
+
+    .about-us__desc-card {
+        padding-top: 13px;
+    }
+
+
+    .about-us__image-block {
+        display: none;
+    }
+
+
+    .container__bottom-bot-about-us {
+        margin-bottom: 26px;
+    }
+
+
+    .about-us__button {
+        font-size: 16px;
+        padding: 14px 42px;
+        margin-bottom: 19px;
+    }
+
+
+    .about-us__inline-checkbox {
+        font-size: 11px;
+    }
+
+
+    .field {
+        padding: 15px 22px;
+        font-size: 16px;
+    }
+
+
+    /***footer***/
+    .footer {
+        padding-top: 44px;
+        padding-bottom: 54px;
+        background-size: 573%;
+        background-position: 71% 84%;
+    }
+
+
+    .container__footer-left {
+        width: 62%;
+    }
+
+
+    .footer__link-right {
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .footer__list-right-one {
+        display: flex;
+        gap: 15px;
+    }
+
+
+    .footer__list-right-two {
+        display: flex;
+        position: absolute;
+        padding-top: 85px;
+        transform: translatey(20px);
+        gap: 18px;
+    }
+
+
+    .container__footer-right {
+        position: relative;
+    }
+
+
+    .footer__positon {
+        position: absolute;
+        transform: translate(143px, -110px);
+    }
+
+
+    .footer__list-right-three {
+        display: flex;
+        gap: 19px;
+        position: absolute;
+        padding-top: 32px;
+        transform: translateX(144px);
+    }
+
+
+    .container__footer-top {
+        display: flex;
+        margin-bottom: 133px;
+    }
+
+
+    .footer__ieroglif {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 320px) {
+
+
+    /***header***/
+    .nav__list {
+        display: flex;
+        overflow: scroll;
+        padding-top: 0;
+        gap: 22px;
+    }
+
+
+    /***podcasts***/
+    .podcasts__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .podcasts__card {
+        padding: 31px 64px 30px 16px;
+    }
+
+
+    .podcasts__image {
+        min-height: 0;
+    }
+
+
+    /***transfers***/
+    .transfers {
+        padding-top: 54px;
+        position: relative;
+    }
+
+
+    .container__transfers {
+        gap: 2px;
+    }
+
+
+    .transfers__link {
+        padding: 7px 29px;
+        margin-bottom: 6px;
+    }
+
+
+    .container__bottom-transfers {
+        padding-top: 36px;
+        transform: translate(-64px, 583px);
+        width: 130%;
+        gap: 13px;
+        border-top: 1px solid #E6E8EC;
+    }
+
+
+    /***guests***/
+    .guests__item {
+        gap: 2px;
+    }
+
+
+    /***playlists***/
+    .playlists__list {
+        gap: 30px;
+    }
+
+
+    .playlists__left {
+        margin-bottom: 26px;
+    }
+
+
+    .playlists__right {
+        padding-top: 7px;
+    }
+
+
+    .playlists__item {
+        width: calc((100% - 17px * 2) / 2);
+    }
+
+
+    .playlists__image-russia {
+        display: block;
+    }
+
+
+    .playlists__image-england {
+        display: block;
+    }
+
+
+    .playlists__card-desc {
+        padding: 9% 0px 16px 13px;
+        flex: 1 0 32%;
+    }
+
+
+    .guests__preview-title {
+        margin: 0;
+    }
+
+
+    .guests__desc-artist {
+        width: 93%;
+    }
+
+
+    /***wave***/
+    .wave__image-block {
+        padding-top: 5px;
+    }
+
+
+    .wave__title {
+        width: 132%;
+    }
+
+
+    .wave__price {
+        margin-bottom: 22px;
+    }
+
+
+    .wave__link {
+        display: flex;
+        align-items: center;
+        width: 130%;
+        padding: 11px 9px;
+    }
+
+
+    .about-us-title {
+        margin-bottom: 11px;
+    }
+
+
+    .title {
+        font-size: 24px;
+    }
+
+
+    .transfers__item {
+        min-height: 149px;
+        padding: 62px 5px 6px 10px;
+    }
+
+
+    .transfers__card-name {
+        min-height: 47px;
+    }
+
+
+    .transfers__microphone-bottom-image {
+        background-position: 2% 86%;
+        background-size: 28%;
+        transform: translateX(-23px);
+    }
+
+
+    .transfers__container-bottom-dop {
+        padding-top: 64px;
+    }
+
+
+    .transfers__container-bottom-dop::before {
+        content: "";
+        position: absolute;
+        border-top: 1px solid grey;
+        width: 126%;
+        right: -58px;
+        bottom: 140px;
+    }
+}
